@@ -11,6 +11,7 @@ In financial and trading mobile applications, real-time data integrity and UI re
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<pre>
 mobile_automation/
 ├── .github/
 │   └── workflows/
@@ -25,7 +26,7 @@ mobile_automation/
 │   └── test_watchlist.robot
 ├── .gitignore
 └── README.md
-
+</pre>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧪 Acceptance Criteria (AC) Matrix (FIN-101)
 Below is the complete 18 Acceptance Criteria (AC) list for Project 1: The Basic Stock Watchlist, formatted in clear, scannable bullet points:
