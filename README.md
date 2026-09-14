@@ -13,7 +13,7 @@ In financial and trading mobile applications, real-time data integrity and UI re
 Acceptance Criteria (AC) Matrix (FIN-101)
 AC ID	Feature Title	Scenario Description & Verification Logic	Target Robot Keyword / Validation
 AC-01	Default Watchlist Load	
-Default market watchlist loads within 5s displaying standard tickers.
+Default market watchlist loads within 5s displaying standard tickers
 
 Wait Until Element Is Visible
 AC-02	Valid Ticker Search	
