@@ -9,6 +9,23 @@ In financial and trading mobile applications, real-time data integrity and UI re
 * **Visual Market Signals:** Confirming positive gain indicators (Green) vs. negative loss indicators (Red).
 * **Watchlist Data Mutations:** Ensuring stock additions, removals, drag-and-drop reordering, and session resets function without state corruption.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mobile_automation/
+├── .github/
+│   └── workflows/
+│       └── robot_ci.yml
+├── resources/
+│   ├── locators.resource
+│   └── watchlist_keywords.resource
+├── results/
+│   ├── log.html
+│   └── report.html
+├── tests/
+│   └── test_watchlist.robot
+├── .gitignore
+└── README.md
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧪 Acceptance Criteria (AC) Matrix (FIN-101)
 Below is the complete 18 Acceptance Criteria (AC) list for Project 1: The Basic Stock Watchlist, formatted in clear, scannable bullet points:
@@ -135,15 +152,3 @@ Description: Re-launching or resetting the application returns all watchlist con
 Target Robot Keyword / Validation: Reset Application / Close Application
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-mobile_automation/
-├── .github/
-│   └── workflows/
-│       └── robot_ci.yml              # GitHub Actions CI Workflow
-├── resources/
-│   ├── locators.resource            # UI Locators (Accessibility ID, XPath, ID)
-│   └── watchlist_keywords.resource   # Reusable Robot Keywords
-├── results/                          # Execution Logs (log.html, report.html)
-├── tests/
-│   └── test_watchlist.robot          # Project 1 Suite (18 Acceptance Criteria)
-├── .gitignore                        # Environment & Artifact Exclusions
-└── README.md                         # Project Documentation
