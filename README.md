@@ -1,4 +1,4 @@
-# 📈 Project 1: Basic Stock Watchlist Mobile Test Automation
+# 📈 Project 1: Stock Watchlist Mobile Test Automation
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
